@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #3b0aff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .header .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .main {
+    flex: 1;
+    background: url('imagens/3.pg.jpg;');
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px 40px;
+    border-radius: 10px;
+  }
+  
+  .overlay h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+  }
