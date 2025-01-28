@@ -1,0 +1,85 @@
+
+/* zerando as configurações */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+/* estilizando o parágrafo */
+.products p{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:black;
+    padding: 30px;
+    background-color:#017df9;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: #017df9;
+    color: #000000;
+    padding: 25px;
+    text-align: center;
+}
+.products{
+    background-color: #ffffff;
+    width: 300px;
+    height: 200px;
+    border: 10px solid #6495ed;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* transformando em conteiner */
+    display: flex;
+    /* deixa o texto em baixo da imagem   */
+    flex-direction: center;
+}
+
+/* tranformar a imagem em responsive */
+.products1 img{
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin-left: 50px;
+}
+.products2 img{
+    display: flex;
+    width: 65%;
+    height: auto;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+.products3 img{
+    display: flex;
+    width: 65%;
+    height: auto;
+    margin-left: 50px;
+}
+.coluna{
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.coluna2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
