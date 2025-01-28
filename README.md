@@ -1,5 +1,12 @@
 # MINHAS FÉRIAS
-<img width="954" alt="image" src="https://github.com/user-attachments/assets/18ad14e1-1880-4e51-9809-8779d8d0a61a" />
+
+# Banco de dados 
+
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/cb26ea96-0c38-4f44-9918-8f7383b80319" />    <img width="452" alt="image" src="https://github.com/user-attachments/assets/97285894-b2b2-4080-b79d-cd884e29e5fe" />
+
+## TELA DE LOGIN
+<img width="688" alt="image" src="https://github.com/user-attachments/assets/aa712c57-06fc-4e87-ad18-06b4c1e14c62" />
+
 
 ## NATAL
 <img width="939" alt="image" src="https://github.com/user-attachments/assets/dfe637f3-6ebf-4025-9b5e-e5ea45eca823" />
