@@ -17,7 +17,6 @@ try {
         throw new Exception("Falha na conexão: ". $conn->connect_error);
     }
 
-    echo "Conexão realizada com sucesso!";
 
 } catch (Exception $e){
     // exibe uma mensagem de erro amigável
