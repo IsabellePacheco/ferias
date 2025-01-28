@@ -1,0 +1,77 @@
+
+
+  /* Resetando configurações */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilização do container */
+.container {
+    background-color: #98c8f8;;
+    border: 2px solid #017df9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilização do título */
+.container h2 {
+    color: #0f65bb;
+    margin-bottom: 20px;
+}
+
+/* Estilização dos inputs */
+form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #5daaf8;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilização do botão */
+form button {
+    background-color: #017df9;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
+
+/* Estilização das mensagens de erro */
+.message.error {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Estilização dos parágrafos (label e texto adicional) */
+form p {
+    color: black;
+    margin: 10px 0;
+    font-size: 14px;
+}
